@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVP4 视频播放器初体验 - Vst</title>
+    <meta name="author"  content="vst">
+    <meta name="description" content="SVP4 视频播放器初体验">
+    <meta name="keywords"  content="有趣的软件">
+    <!-- Open Graph -->
+    <meta property="og:title" content="SVP4 视频播放器初体验 - Vst">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/2018/12/04/SVP4-%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E5%88%9D%E4%BD%93%E9%AA%8C.html">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Vst">
+    <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
+    <link rel="stylesheet" href="/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/css/share.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!--
+Author: Ray-Eldath
+refer to:
+ - http://docs.mathjax.org/en/latest/options/index.html
+-->
+
+	<script type="text/javascript" async src="https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+	
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+		jax: ["input/TeX", "output/HTML-CSS"],
+		tex2jax: {
+			inlineMath: [ ["$", "$"] ],
+			displayMath: [ ["$$", "$$"] ],
+			skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+		},
+		"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+    </script>
+
+	
+    <!--
+Author: Ray-Eldath
+-->
+<style>
+    .markdown-body .anchor{
+        float: left;
+        margin-top: -8px;
+        margin-left: -20px;
+        padding-right: 4px;
+        line-height: 1;
+        opacity: 0;
+    }
+    
+    .markdown-body .anchor .anchor-icon{
+        font-size: 15px
+    }
+</style>
+<script>
+    $(document).ready(function() {
+        let nodes = document.querySelector(".markdown-body").querySelectorAll("h1,h2,h3")
+        for(let node of nodes) {
+            var anchor = document.createElement("a")
+            var anchorIcon = document.createElement("i")
+            anchorIcon.setAttribute("class", "fa fa-anchor fa-lg anchor-icon")
+            anchorIcon.setAttribute("aria-hidden", true)
+            anchor.setAttribute("class", "anchor")
+            anchor.setAttribute("href", "#" + node.getAttribute("id"))
+            
+            anchor.onmouseover = function() {
+                this.style.opacity = "0.4"
+            }
+            
+            anchor.onmouseout = function() {
+                this.style.opacity = "0"
+            }
+            
+            anchor.appendChild(anchorIcon)
+            node.appendChild(anchor)
+        }
+    })
+</script>
+</head>
+
+
+<body>
+  <!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
+  <input id="nm-switch" type="hidden" value="true"> <header class="g-header">
+    <div class="g-logo">
+      <a href="/"></a>
+    </div>
+    <i id="menu-toggle" class="iconfont icon-menu"></i>
+    <nav class="g-nav">
+        <ul>
+            
+            <li><a href="/">home</a></li>
+            
+            <li><a href="/tags.html">tags</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+
+  <header
+    class="g-banner post-header post-pattern-circuitBoard bgcolor-default post-no-cover"
+    data-theme="default"
+  >
+    <div class="post-wrapper">
+      <div class="post-tags">
+        
+          
+            <a href="/tags#%E6%9C%89%E8%B6%A3%E7%9A%84%E8%BD%AF%E4%BB%B6" class="post-tag">有趣的软件</a>
+          
+        
+      </div>
+      <h1>SVP4 视频播放器初体验</h1>
+      <div class="post-meta">
+        <span class="post-meta-item"><i class="iconfont icon-author"></i>vst</span>
+        <time class="post-meta-item" datetime="18-12-04"><i class="iconfont icon-date"></i>2018-12-04</time>
+      </div>
+    </div>
+    
+  </header>
+
+  <div class="post-content visible">
+    
+
+    <article class="markdown-body">
+      <h1 id="svp4-视频播放器初体验">SVP4 视频播放器初体验</h1>
+
+<blockquote>
+  <p><strong>SVP 将任何视频转换为 60+ fps（甚至更高）并在您最喜爱的视频播放器中实时完成。</strong></p>
+</blockquote>
+
+<p>svp是可以实时将普通视频转化成60+帧视频播放，当然要播放更高帧数，必须显示器支持才能体会到（目前普通显示器最大60帧，再高也刷新不了）。30帧和60帧差别还是有点大的，画面流畅很多，当然是转换的所以部分快镜头会有残影现象，不过不影响。</p>
+
+<p>详细了解请看官网<a href="https://www.svp-team.com/wiki/Main_Page" title="https://www.svp-team.com/wiki/Main_Page">https://www.svp-team.com/wiki/Main_Page</a></p>
+
+<p><img src="https://www.svp-team.com/w/images/d/d5/Svp-whatis.png" alt="" /></p>
+
+<p>对了目前版本最高时svp4，windows下有免费版，满足基本使用，mac版收费的,也有linux对应版本。下载具体看 <a href="https://www.svp-team.cn.com/wiki/Purchase" title="https://www.svp-team.cn.com/wiki/Purchase">https://www.svp-team.cn.com/wiki/Purchase</a> ，部分页面下载可能需要科学上网。。</p>
+
+<h3 id="个人小记">个人小记</h3>
+<ul>
+  <li><strong>视频底部字母被遮挡</strong>
+  SVP控制面板 -&gt; 视频帧处理 -&gt; (关闭)切掉黑边
+  SVP控制面板 -&gt; 背景灯效果 -&gt; 关闭</li>
+</ul>
+
+<p>暂时就这么多，以后使用中再记录</p>
+
+    </article>
+
+    
+  </div>
+
+  <section class="author-detail">
+    <section class="post-footer-item author-card">
+      <div class="avatar">
+        <img src="/assets/img/profile.jpg" alt="">
+      </div>
+      <div class="author-name" rel="author">vst</div>
+      <div class="bio">
+        <p></p>
+      </div>
+      
+      <ul class="sns-links">
+        
+        <li>
+          <a href="mailto:vst93g@gmail.com" target="_blank">
+                    <i class="iconfont icon-email"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//weibo.com/929701465" target="_blank">
+                    <i class="iconfont icon-weibo"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//github.com/vst93" target="_blank">
+                    <i class="iconfont icon-github"></i>
+                </a>
+        </li>
+        
+      </ul>
+      
+    </section>
+    <section class="post-footer-item read-next">
+      
+
+      
+    </section>
+    
+  </section>
+
+  <footer class="g-footer">
+  <section>Vst ©
+  
+  
+  2018
+  </section>
+  <section>Powered by <a href="//jekyllrb.com">Jekyll</a> | <a href="https://github.com/kaeyleo/jekyll-theme-H2O">Theme H2O</a></section>
+</footer>
+
+
+  <script src="/assets/js/social-share.min.js"></script>
+  <script>
+    socialShare('.social-share', {
+      sites: [
+        
+          'wechat'
+          ,
+          
+        
+          'weibo'
+          
+        
+      ],
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+  </script>
+
+  
+
+  <script src="/assets/js/prism.js"></script>
+  <script src="/assets/js/index.min.js"></script>
+</body>
+
+</html>

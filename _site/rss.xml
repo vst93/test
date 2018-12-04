@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vst</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 05 Dec 2018 01:00:25 +0800</pubDate>
+    <lastBuildDate>Wed, 05 Dec 2018 01:00:25 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>SVP4 视频播放器初体验</title>
+        <description>&lt;h1 id=&quot;svp4-视频播放器初体验&quot;&gt;SVP4 视频播放器初体验&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;SVP 将任何视频转换为 60+ fps（甚至更高）并在您最喜爱的视频播放器中实时完成。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;svp是可以实时将普通视频转化成60+帧视频播放，当然要播放更高帧数，必须显示器支持才能体会到（目前普通显示器最大60帧，再高也刷新不了）。30帧和60帧差别还是有点大的，画面流畅很多，当然是转换的所以部分快镜头会有残影现象，不过不影响。&lt;/p&gt;
+
+&lt;p&gt;详细了解请看官网&lt;a href=&quot;https://www.svp-team.com/wiki/Main_Page&quot; title=&quot;https://www.svp-team.com/wiki/Main_Page&quot;&gt;https://www.svp-team.com/wiki/Main_Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.svp-team.com/w/images/d/d5/Svp-whatis.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;对了目前版本最高时svp4，windows下有免费版，满足基本使用，mac版收费的,也有linux对应版本。下载具体看 &lt;a href=&quot;https://www.svp-team.cn.com/wiki/Purchase&quot; title=&quot;https://www.svp-team.cn.com/wiki/Purchase&quot;&gt;https://www.svp-team.cn.com/wiki/Purchase&lt;/a&gt; ，部分页面下载可能需要科学上网。。&lt;/p&gt;
+
+&lt;h3 id=&quot;个人小记&quot;&gt;个人小记&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;视频底部字母被遮挡&lt;/strong&gt;
+  SVP控制面板 -&amp;gt; 视频帧处理 -&amp;gt; (关闭)切掉黑边
+  SVP控制面板 -&amp;gt; 背景灯效果 -&amp;gt; 关闭&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;暂时就这么多，以后使用中再记录&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Dec 2018 00:00:00 +0800</pubDate>
+        <link>/2018/12/04/SVP4-%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E5%88%9D%E4%BD%93%E9%AA%8C.html</link>
+        <guid isPermaLink="true">/2018/12/04/SVP4-%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E5%88%9D%E4%BD%93%E9%AA%8C.html</guid>
+        
+        <category>有趣的软件</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
